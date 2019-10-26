@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.vortex.soft.kotlinfirebasetest.presentation.toolbar.PostsToolbarView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp">
+
+    <TextView
+            android:id="@+id/toolbar_details_title"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:maxLines="3"
+            android:orientation="horizontal"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.Button"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="normal|bold"
+            tools:text="Title"/>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center_vertical">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/action_add_post"
+                app:srcCompat="@drawable/ic_add"
+                tools:visibility="visible"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginRight="12dp"
+                android:background="?android:selectableItemBackground"
+                android:baselineAlignBottom="false"
+                android:visibility="visible"/>
+        <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/action_posts_refresh"
+                app:srcCompat="@drawable/ic_refresh_2"
+                tools:visibility="visible"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginRight="12dp"
+                android:background="?android:selectableItemBackground"
+                android:baselineAlignBottom="false"
+                android:visibility="visible"/>
+        <androidx.appcompat.widget.AppCompatImageButton
+                android:id="@+id/action_posts_log_out"
+                app:srcCompat="@drawable/ic_logout_3"
+                tools:visibility="visible"
+                android:layout_width="42dp"
+                android:layout_height="42dp"
+                android:layout_marginRight="12dp"
+                android:background="?android:selectableItemBackground"
+                android:baselineAlignBottom="false"
+                android:visibility="visible"/>
+    </LinearLayout>
+</com.vortex.soft.kotlinfirebasetest.presentation.toolbar.PostsToolbarView>

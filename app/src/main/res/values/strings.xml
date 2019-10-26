@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KotlinFirebaseTest</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="login_title">Firebase Authorization</string>
+    <string name="users">Users</string>
+    <string name="posts">Posts</string>
+    <string name="users_load_success">Users success load</string>
+    <string name="posts_load_success">Posts success load</string>
+    <string name="choose_record">Choose a record</string>
+
+    <string name="error_no_connection">No connection</string>
+</resources>

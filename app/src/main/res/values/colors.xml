@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="map_pin_red">#ba0609</color>
+    <color name="map_pin_green">#18870a</color>
+    <color name="map_pin_blue">#1d82ca</color>
+    <color name="map_pin_black">#414141</color>
+    <color name="colorPrimary_light">#673ab7</color><!-- Deep Purple 500 -->
+    <color name="colorPrimaryDark_light">#512da8</color><!-- Deep Purple 700 -->
+    <color name="colorAccent_light">#ff4081</color><!-- Pink A200 -->
+
+    <color name="background_color_black">#bb000000</color>
+
+    <color name="Transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="lightBlue">#C9EDFC</color>
+    <color name="middleBlue">#1db0ed</color>
+    <color name="darkBlue">#0089d5</color>
+    <color name="menuItem">#344a5f</color>
+    <color name="light_gray">#e0e0e0</color>
+    <color name="blue_grey">#CFD8DC</color>
+</resources>
